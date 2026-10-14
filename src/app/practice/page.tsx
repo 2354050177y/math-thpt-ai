@@ -159,8 +159,8 @@ export default function PracticeSelectionPage() {
           <span>Bước 2: Chọn số lượng câu hỏi luyện tập</span>
         </h2>
 
-        <div className="grid grid-cols-4 gap-3">
-          {[5, 10, 15, 20].map((num) => (
+        <<div className="grid grid-cols-2 sm:grid-cols-5 gap-3">
+  {[5, 7, 10, 15, 20, 30].map((num) => (
             <button
               type="button"
               key={num}
